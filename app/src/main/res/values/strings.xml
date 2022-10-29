@@ -2,4 +2,7 @@
     <string name="app_name">Lab_02</string>
     <string name="confirm">Confirm</string>
     <string name="lab_2">Lab-2!</string>
+    <string name="enter_first_digit">Enter First Digit</string>
+    <string name="Enter_First_digit">Enter_First_digit</string>
+    <string name="number">Number</string>
 </resources>

@@ -8,34 +8,52 @@
 
     <TextView
         android:id="@+id/tv1"
+        android:text="Enter_First_digit :"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="@color/purple_200"
+        tools:ignore="HardcodedText" />
 
-    <Button
-        android:id="@+id/btn1"
+    <EditText
+        android:id="@+id/et1"
         android:layout_below="@+id/tv1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/confirm" />
+        android:hint="please write here"
+        android:gravity="center"
+        android:inputType="text"
+        android:autofillHints=""
+        tools:ignore="HardcodedText,TextFields" />
 
     <TextView
         android:id="@+id/tv2"
-        android:layout_toRightOf="@id/btn1"
-        android:layout_marginTop="30dp"
+        android:layout_below="@+id/et1"
+        android:text="Enter_2nd_digit :"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lab_2"
-        android:textSize="50dp"
-        android:padding="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="@color/purple_200"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_below="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please give number"
+        android:inputType="number"
+        android:gravity="center"
+        android:autofillHints=""
+        tools:ignore="HardcodedText,LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_centerHorizontal="true"
+        tools:ignore="HardcodedText" />
 
 </RelativeLayout>
